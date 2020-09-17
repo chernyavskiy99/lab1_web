@@ -1,3 +1,13 @@
+:root {
+  --main-color: #53547f;
+  --secondary-color: #8f8f8f;
+  --light-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   min-width: 320px;
 }

@@ -1,0 +1,32 @@
+.refresh {
+  display: flex;
+  align-items: center;
+}
+
+.refresh__heading {
+  font-family: "SourceSerifPro-Light", "Arial", serif;
+  font-size: 26px;
+  color: var(--main-color);
+  line-height: 1;
+
+  margin: 0;
+}
+
+.refresh__button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+
+  margin: 0 40px 0 auto;
+
+  background-color: var(--main-color);
+  background-image: url(../../img/refresh.svg);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.refresh__button-text {
+  font-size: 0;
+} 

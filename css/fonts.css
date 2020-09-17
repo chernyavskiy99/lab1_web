@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "SourceSerifPro";
+  font-family: "SourceSerifPro-Light";
   src: 
-    local("SourceSerifPro-Regular"),
-    url(../fonts/SourceSerifPro-Regular.ttf) format("truetype");
+    local("SourceSerifPro-Light"),
+    url(../fonts/SourceSerifPro-Light.ttf) format("truetype");
 }
 
 @font-face {

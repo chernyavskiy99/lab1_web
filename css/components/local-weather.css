@@ -1,0 +1,29 @@
+.local-weather__city {
+  font-family: "Roboto-Medium", "Arial", sans-serif;
+  font-size: 25px;
+  color: var(--main-color);
+
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.local-weather__short-info {
+  display: flex;
+
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.local-weather__icon {
+  width: 75px;
+  height: 75px;
+
+  margin-right: 60px;
+}
+
+.local-weather__degrees {
+  font-family: "Roboto-Medium", "Arial", sans-serif;
+  font-size: 60px;
+  color: var(--secondary-color);
+  line-height: 1;
+}
