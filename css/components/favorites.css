@@ -69,3 +69,9 @@
 .favorites__item {
   margin-bottom: 25px;
 } 
+
+@media (min-width: 426px) {
+	.favorites__heading {
+		font-size: 30px;
+	}
+}

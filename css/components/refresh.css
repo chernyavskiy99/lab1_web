@@ -30,3 +30,39 @@
 .refresh__button-text {
   font-size: 0;
 } 
+
+@media (min-width: 426px) {
+  .refresh__heading {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 520px) { 
+  .refresh__button {
+    width: 210px;
+    background-image: none;
+    margin-right: 0;
+  }
+
+  .refresh__button-text {
+    font-family: "SourceSerifPro-Light", "Arial", serif;
+    font-size: 14px;
+    color: var(--light-color);
+  }
+}
+
+@media (min-width: 924px) {
+  .refresh {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    gap: auto;
+  }
+
+  .refresh__button {
+    margin: 0 auto;
+  }
+
+  .refresh__button-text {
+    font-size: 16px;
+  }
+} 

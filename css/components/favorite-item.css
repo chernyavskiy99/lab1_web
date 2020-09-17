@@ -62,4 +62,19 @@
   left: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
   transform-origin: center;
+ }
+
+@media (min-width: 426px) {
+  .favorite-item__city {
+    font-size: 22px;
+  }
+
+  .favorite-item__degrees {
+    font-size: 28px;
+  }
+
+  .favorite-item__icon {
+    width: 40px;
+    height: 40px;
+  }
 } 
