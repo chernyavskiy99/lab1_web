@@ -6,3 +6,5 @@
 @import './components/refresh.css';
 @import './components/local-weather.css';
 @import './components/weather-details.css'; 
+@import './components/favorites.css';
+@import './components/favorite-item.css'; 

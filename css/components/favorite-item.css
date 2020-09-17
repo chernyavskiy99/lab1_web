@@ -1,0 +1,65 @@
+.favorite-item__general {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.favorite-item__city {
+  font-family: "Roboto-Medium", "Arial", sans-serif;
+  font-size: 18px;
+  color: var(--main-color);
+  line-height: 1;
+
+  margin: 0;
+  margin-right: 25px;
+}
+
+.favorite-item__short-info {
+  display: flex;
+  align-items: center;
+
+  margin: 0;
+}
+
+.favorite-item__degrees {
+  font-family: "Roboto-Medium", "Arial", sans-serif;
+  font-size: 24px;
+  color: var(--secondary-color);
+  line-height: 1;
+
+  margin-right: 15px;
+}
+
+.favorite-item__button {
+  position: relative;
+  margin-left: auto;
+  width: 27px;
+  height: 27px;
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 50%;
+}
+
+.favorite-item__button::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 12px;
+  background-color: var(--light-color);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  transform-origin: center;
+}
+
+.favorite-item__button::before {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 2px;
+  background-color: var(--light-color);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  transform-origin: center;
+} 
