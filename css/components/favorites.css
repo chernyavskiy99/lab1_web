@@ -75,3 +75,44 @@
 		font-size: 30px;
 	}
 }
+
+@media (min-width: 924px) {
+  .favorites__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .favorites__add {
+    margin-top: 0;
+  }
+
+  .favorites__input {
+    width: 280px;
+  }
+
+  .favorites__add-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .favorites__add-button::after {
+    height: 15px;
+  }
+
+  .favorites__add-button::before {
+    width: 15px;
+  }
+
+  .favorites__list {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 75px;
+    row-gap: 35px;
+  }
+
+  .favorites__item {
+    margin-bottom: 0;
+  }
+} 

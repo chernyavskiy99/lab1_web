@@ -78,3 +78,31 @@
     height: 40px;
   }
 } 
+
+@media (min-width: 924px) {
+  .favorite-item__city {
+    font-size: 26px;
+  }
+
+  .favorite-item__degrees {
+    font-size: 32px;
+  }
+
+  .favorite-item__icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .favorite-item__button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .favorite-item__button::after {
+    height: 15px;
+  }
+
+  .favorite-item__button::before {
+    width: 15px;
+  }
+} 
