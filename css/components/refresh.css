@@ -25,11 +25,8 @@
   background-size: 30px 30px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-}
-
-.refresh__button-text {
   font-size: 0;
-} 
+}
 
 @media (min-width: 426px) {
   .refresh__heading {
@@ -42,10 +39,8 @@
     width: 210px;
     background-image: none;
     margin-right: 0;
-  }
-
-  .refresh__button-text {
-    font-family: "SourceSerifPro-Light", "Arial", serif;
+	
+	font-family: "SourceSerifPro-Light", "Arial", serif;
     font-size: 14px;
     color: var(--light-color);
   }
@@ -60,9 +55,6 @@
 
   .refresh__button {
     margin: 0 auto;
-  }
-
-  .refresh__button-text {
-    font-size: 16px;
+	font-size: 16px;
   }
 } 
